@@ -143,8 +143,13 @@ img {
   color: var(--violet);
 }
 
+@media (width: 320px) {
+  .quotes {
+    right: -6px;
+  }
+}
 
-@media(min-width: 640px) {
+@media (min-width: 640px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
